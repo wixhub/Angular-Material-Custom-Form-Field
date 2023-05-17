@@ -1,0 +1,14 @@
+:host {
+  /* Underline */
+  ::ng-deep .mdc-line-ripple {
+    display: none !important;
+  }
+
+  /* Border */
+  ::ng-deep .mat-mdc-text-field-wrapper,
+  .mdc-text-field {
+    background-color: transparent !important;
+    border: 1px solid !important;
+    border-radius: 4px !important;
+  }
+}
